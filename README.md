@@ -6,7 +6,7 @@ A CSS Grid generator that uses SCSS or Python to generate a grid and sub-grid. B
 @include grid(gridname, columns, gridwidth, gutter);
 
 Usage (SCSS):
-    
+
     @import 'grid.scss';
 		@include grid(g, 8, 990, 20);
 
@@ -21,5 +21,5 @@ This will apply a 4 column span to the column.
 To-do:
 ------
 
--Specify each individual column width
--Option to produce fixed width grid with px values
+-    Specify each individual column width
+-    Option to produce fixed width grid with px values
