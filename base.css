@@ -1,0 +1,19 @@
+body {
+  font-family: 'Helvetica Neue', Sans-serif;
+  font-size: 14px;
+  line-height: 22px; }
+
+.wrapper {
+  background: #fff;
+  margin: 20px 60px;
+  padding: 10px; }
+
+.grid {
+  background: url(grid.png) 50% 0 repeat-y;
+  background-size: 100%; }
+
+.grid div {
+  background: #c00000; }
+
+.grid div div {
+  background: #00c000; }

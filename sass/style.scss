@@ -1,0 +1,7 @@
+
+/* grid sass */
+
+@import 'grid.scss';
+
+@include grid(g, 8, 990, 20);
+

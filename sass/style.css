@@ -1,0 +1,277 @@
+/* grid sass */
+/* --- GRID FOR WIDTH 990 --- */
+[class*=g1], [class*=g2], [class*=g3], [class*=g4], [class*=g5], [class*=g6], [class*=g7], [class*=g8], [class*=g9], .g-all {
+  display: block;
+  float: left;
+  margin-right: 2.02020202%;
+  margin-left: 0; }
+
+/* Widths */
+/* parent widths */
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9 {
+  width: 10.73232323%; }
+
+/* children widths */
+.g1-g2 .g1, .g1-g2 .g2, .g1-g2 .g3, .g2-g3 .g2, .g2-g3 .g3, .g2-g3 .g4, .g3-g4 .g3, .g3-g4 .g4, .g3-g4 .g5, .g4-g5 .g4, .g4-g5 .g5, .g4-g5 .g6, .g5-g6 .g5, .g5-g6 .g6, .g5-g6 .g7, .g6-g7 .g6, .g6-g7 .g7, .g6-g7 .g8, .g7-g8 .g7, .g7-g8 .g8, .g7-g8 .g9, .g8-g9 .g8, .g8-g9 .g9, .g8-g9 .g10 {
+  width: 45.69892473%; }
+
+.g1-g3 .g1, .g1-g3 .g2, .g1-g3 .g3, .g1-g3 .g4, .g2-g4 .g2, .g2-g4 .g3, .g2-g4 .g4, .g2-g4 .g5, .g3-g5 .g3, .g3-g5 .g4, .g3-g5 .g5, .g3-g5 .g6, .g4-g6 .g4, .g4-g6 .g5, .g4-g6 .g6, .g4-g6 .g7, .g5-g7 .g5, .g5-g7 .g6, .g5-g7 .g7, .g5-g7 .g8, .g6-g8 .g6, .g6-g8 .g7, .g6-g8 .g8, .g6-g8 .g9, .g7-g9 .g7, .g7-g9 .g8, .g7-g9 .g9, .g7-g9 .g10 {
+  width: 29.61672474%; }
+
+.g1-g4 .g1, .g1-g4 .g2, .g1-g4 .g3, .g1-g4 .g4, .g1-g4 .g5, .g2-g5 .g2, .g2-g5 .g3, .g2-g5 .g4, .g2-g5 .g5, .g2-g5 .g6, .g3-g6 .g3, .g3-g6 .g4, .g3-g6 .g5, .g3-g6 .g6, .g3-g6 .g7, .g4-g7 .g4, .g4-g7 .g5, .g4-g7 .g6, .g4-g7 .g7, .g4-g7 .g8, .g5-g8 .g5, .g5-g8 .g6, .g5-g8 .g7, .g5-g8 .g8, .g5-g8 .g9, .g6-g9 .g6, .g6-g9 .g7, .g6-g9 .g8, .g6-g9 .g9, .g6-g9 .g10 {
+  width: 21.90721649%; }
+
+.g1-g5 .g1, .g1-g5 .g2, .g1-g5 .g3, .g1-g5 .g4, .g1-g5 .g5, .g1-g5 .g6, .g2-g6 .g2, .g2-g6 .g3, .g2-g6 .g4, .g2-g6 .g5, .g2-g6 .g6, .g2-g6 .g7, .g3-g7 .g3, .g3-g7 .g4, .g3-g7 .g5, .g3-g7 .g6, .g3-g7 .g7, .g3-g7 .g8, .g4-g8 .g4, .g4-g8 .g5, .g4-g8 .g6, .g4-g8 .g7, .g4-g8 .g8, .g4-g8 .g9, .g5-g9 .g5, .g5-g9 .g6, .g5-g9 .g7, .g5-g9 .g8, .g5-g9 .g9, .g5-g9 .g10 {
+  width: 17.38241309%; }
+
+.g1-g6 .g1, .g1-g6 .g2, .g1-g6 .g3, .g1-g6 .g4, .g1-g6 .g5, .g1-g6 .g6, .g1-g6 .g7, .g2-g7 .g2, .g2-g7 .g3, .g2-g7 .g4, .g2-g7 .g5, .g2-g7 .g6, .g2-g7 .g7, .g2-g7 .g8, .g3-g8 .g3, .g3-g8 .g4, .g3-g8 .g5, .g3-g8 .g6, .g3-g8 .g7, .g3-g8 .g8, .g3-g8 .g9, .g4-g9 .g4, .g4-g9 .g5, .g4-g9 .g6, .g4-g9 .g7, .g4-g9 .g8, .g4-g9 .g9, .g4-g9 .g10 {
+  width: 14.40677966%; }
+
+.g1-g7 .g1, .g1-g7 .g2, .g1-g7 .g3, .g1-g7 .g4, .g1-g7 .g5, .g1-g7 .g6, .g1-g7 .g7, .g1-g7 .g8, .g2-g8 .g2, .g2-g8 .g3, .g2-g8 .g4, .g2-g8 .g5, .g2-g8 .g6, .g2-g8 .g7, .g2-g8 .g8, .g2-g8 .g9, .g3-g9 .g3, .g3-g9 .g4, .g3-g9 .g5, .g3-g9 .g6, .g3-g9 .g7, .g3-g9 .g8, .g3-g9 .g9, .g3-g9 .g10 {
+  width: 12.30101302%; }
+
+.g1-g8 .g1, .g1-g8 .g2, .g1-g8 .g3, .g1-g8 .g4, .g1-g8 .g5, .g1-g8 .g6, .g1-g8 .g7, .g1-g8 .g8, .g1-g8 .g9, .g2-g9 .g2, .g2-g9 .g3, .g2-g9 .g4, .g2-g9 .g5, .g2-g9 .g6, .g2-g9 .g7, .g2-g9 .g8, .g2-g9 .g9, .g2-g9 .g10 {
+  width: 10.73232323%; }
+
+.g1-g9 .g1, .g1-g9 .g2, .g1-g9 .g3, .g1-g9 .g4, .g1-g9 .g5, .g1-g9 .g6, .g1-g9 .g7, .g1-g9 .g8, .g1-g9 .g9, .g1-g9 .g10 {
+  width: 9.51847704%; }
+
+/* parent span widths */
+.g1-g2, .g2-g3, .g3-g4, .g4-g5, .g5-g6, .g6-g7, .g7-g8 {
+  width: 23.48484848%; }
+
+.g1-g3, .g2-g4, .g3-g5, .g4-g6, .g5-g7, .g6-g8 {
+  width: 36.23737374%; }
+
+.g1-g4, .g2-g5, .g3-g6, .g4-g7, .g5-g8 {
+  width: 48.98989899%; }
+
+.g1-g5, .g2-g6, .g3-g7, .g4-g8 {
+  width: 61.74242424%; }
+
+.g1-g6, .g2-g7, .g3-g8 {
+  width: 74.49494949%; }
+
+.g1-g7, .g2-g8 {
+  width: 87.24747475%; }
+
+.g1-g8 {
+  width: 100%; }
+
+/* child span widths */
+.g1-g3 .g1-g2, .g1-g3 .g2-g3, .g2-g4 .g2-g3, .g2-g4 .g3-g4, .g3-g5 .g3-g4, .g3-g5 .g4-g5, .g4-g6 .g4-g5, .g4-g6 .g5-g6, .g5-g7 .g5-g6, .g5-g7 .g6-g7, .g6-g8 .g6-g7, .g6-g8 .g7-g8 {
+  width: 64.80836237%; }
+
+.g1-g4 .g1-g2, .g1-g4 .g2-g3, .g1-g4 .g3-g4, .g2-g5 .g2-g3, .g2-g5 .g3-g4, .g2-g5 .g4-g5, .g3-g6 .g3-g4, .g3-g6 .g4-g5, .g3-g6 .g5-g6, .g4-g7 .g4-g5, .g4-g7 .g5-g6, .g4-g7 .g6-g7, .g5-g8 .g5-g6, .g5-g8 .g6-g7, .g5-g8 .g7-g8 {
+  width: 47.93814433%; }
+
+.g1-g5 .g1-g2, .g1-g5 .g2-g3, .g1-g5 .g3-g4, .g1-g5 .g4-g5, .g2-g6 .g2-g3, .g2-g6 .g3-g4, .g2-g6 .g4-g5, .g2-g6 .g5-g6, .g3-g7 .g3-g4, .g3-g7 .g4-g5, .g3-g7 .g5-g6, .g3-g7 .g6-g7, .g4-g8 .g4-g5, .g4-g8 .g5-g6, .g4-g8 .g6-g7, .g4-g8 .g7-g8 {
+  width: 38.03680982%; }
+
+.g1-g6 .g1-g2, .g1-g6 .g2-g3, .g1-g6 .g3-g4, .g1-g6 .g4-g5, .g1-g6 .g5-g6, .g2-g7 .g2-g3, .g2-g7 .g3-g4, .g2-g7 .g4-g5, .g2-g7 .g5-g6, .g2-g7 .g6-g7, .g3-g8 .g3-g4, .g3-g8 .g4-g5, .g3-g8 .g5-g6, .g3-g8 .g6-g7, .g3-g8 .g7-g8 {
+  width: 31.52542373%; }
+
+.g1-g7 .g1-g2, .g1-g7 .g2-g3, .g1-g7 .g3-g4, .g1-g7 .g4-g5, .g1-g7 .g5-g6, .g1-g7 .g6-g7, .g2-g8 .g2-g3, .g2-g8 .g3-g4, .g2-g8 .g4-g5, .g2-g8 .g5-g6, .g2-g8 .g6-g7, .g2-g8 .g7-g8 {
+  width: 26.91751085%; }
+
+.g1-g8 .g1-g2, .g1-g8 .g2-g3, .g1-g8 .g3-g4, .g1-g8 .g4-g5, .g1-g8 .g5-g6, .g1-g8 .g6-g7, .g1-g8 .g7-g8 {
+  width: 23.48484848%; }
+
+.g1-g4 .g1-g3, .g1-g4 .g2-g4, .g2-g5 .g2-g4, .g2-g5 .g3-g5, .g3-g6 .g3-g5, .g3-g6 .g4-g6, .g4-g7 .g4-g6, .g4-g7 .g5-g7, .g5-g8 .g5-g7, .g5-g8 .g6-g8 {
+  width: 73.96907216%; }
+
+.g1-g5 .g1-g3, .g1-g5 .g2-g4, .g1-g5 .g3-g5, .g2-g6 .g2-g4, .g2-g6 .g3-g5, .g2-g6 .g4-g6, .g3-g7 .g3-g5, .g3-g7 .g4-g6, .g3-g7 .g5-g7, .g4-g8 .g4-g6, .g4-g8 .g5-g7, .g4-g8 .g6-g8 {
+  width: 58.69120654%; }
+
+.g1-g6 .g1-g3, .g1-g6 .g2-g4, .g1-g6 .g3-g5, .g1-g6 .g4-g6, .g2-g7 .g2-g4, .g2-g7 .g3-g5, .g2-g7 .g4-g6, .g2-g7 .g5-g7, .g3-g8 .g3-g5, .g3-g8 .g4-g6, .g3-g8 .g5-g7, .g3-g8 .g6-g8 {
+  width: 48.6440678%; }
+
+.g1-g7 .g1-g3, .g1-g7 .g2-g4, .g1-g7 .g3-g5, .g1-g7 .g4-g6, .g1-g7 .g5-g7, .g2-g8 .g2-g4, .g2-g8 .g3-g5, .g2-g8 .g4-g6, .g2-g8 .g5-g7, .g2-g8 .g6-g8 {
+  width: 41.53400868%; }
+
+.g1-g8 .g1-g3, .g1-g8 .g2-g4, .g1-g8 .g3-g5, .g1-g8 .g4-g6, .g1-g8 .g5-g7, .g1-g8 .g6-g8 {
+  width: 36.23737374%; }
+
+.g1-g5 .g1-g4, .g1-g5 .g2-g5, .g2-g6 .g2-g5, .g2-g6 .g3-g6, .g3-g7 .g3-g6, .g3-g7 .g4-g7, .g4-g8 .g4-g7, .g4-g8 .g5-g8 {
+  width: 79.34560327%; }
+
+.g1-g6 .g1-g4, .g1-g6 .g2-g5, .g1-g6 .g3-g6, .g2-g7 .g2-g5, .g2-g7 .g3-g6, .g2-g7 .g4-g7, .g3-g8 .g3-g6, .g3-g8 .g4-g7, .g3-g8 .g5-g8 {
+  width: 65.76271186%; }
+
+.g1-g7 .g1-g4, .g1-g7 .g2-g5, .g1-g7 .g3-g6, .g1-g7 .g4-g7, .g2-g8 .g2-g5, .g2-g8 .g3-g6, .g2-g8 .g4-g7, .g2-g8 .g5-g8 {
+  width: 56.15050651%; }
+
+.g1-g8 .g1-g4, .g1-g8 .g2-g5, .g1-g8 .g3-g6, .g1-g8 .g4-g7, .g1-g8 .g5-g8 {
+  width: 48.98989899%; }
+
+.g1-g6 .g1-g5, .g1-g6 .g2-g6, .g2-g7 .g2-g6, .g2-g7 .g3-g7, .g3-g8 .g3-g7, .g3-g8 .g4-g8 {
+  width: 82.88135593%; }
+
+.g1-g7 .g1-g5, .g1-g7 .g2-g6, .g1-g7 .g3-g7, .g2-g8 .g2-g6, .g2-g8 .g3-g7, .g2-g8 .g4-g8 {
+  width: 70.76700434%; }
+
+.g1-g8 .g1-g5, .g1-g8 .g2-g6, .g1-g8 .g3-g7, .g1-g8 .g4-g8 {
+  width: 61.74242424%; }
+
+.g1-g7 .g1-g6, .g1-g7 .g2-g7, .g2-g8 .g2-g7, .g2-g8 .g3-g8 {
+  width: 85.38350217%; }
+
+.g1-g8 .g1-g6, .g1-g8 .g2-g7, .g1-g8 .g3-g8 {
+  width: 74.49494949%; }
+
+.g1-g8 .g1-g7, .g1-g8 .g2-g8 {
+  width: 87.24747475%; }
+
+.g-all {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+
+/* Grid grid margins and clearing ----- */
+.g1-g2 .g1, .g1-g2 [class*=g2], .g1-g2 .g2, .g1-g2 .g3, .g2-g3 .g2, .g2-g3 [class*=g3], .g2-g3 .g3, .g2-g3 .g4, .g3-g4 .g3, .g3-g4 [class*=g4], .g3-g4 .g4, .g3-g4 .g5, .g4-g5 .g4, .g4-g5 [class*=g5], .g4-g5 .g5, .g4-g5 .g6, .g5-g6 .g5, .g5-g6 [class*=g6], .g5-g6 .g6, .g5-g6 .g7, .g6-g7 .g6, .g6-g7 [class*=g7], .g6-g7 .g7, .g6-g7 .g8, .g7-g8 .g7, .g7-g8 [class*=g8], .g7-g8 .g8, .g7-g8 .g9, .g8-g9 .g8, .g8-g9 [class*=g9], .g8-g9 .g9, .g8-g9 .g10 {
+  margin-right: 8.60215054%; }
+
+.g1-g3 .g1, .g1-g3 [class*=g2], .g1-g3 [class*=g3], .g1-g3 .g2, .g1-g3 [class*=g3], .g1-g3 .g3, .g1-g3 .g4, .g2-g4 .g2, .g2-g4 [class*=g3], .g2-g4 [class*=g4], .g2-g4 .g3, .g2-g4 [class*=g4], .g2-g4 .g4, .g2-g4 .g5, .g3-g5 .g3, .g3-g5 [class*=g4], .g3-g5 [class*=g5], .g3-g5 .g4, .g3-g5 [class*=g5], .g3-g5 .g5, .g3-g5 .g6, .g4-g6 .g4, .g4-g6 [class*=g5], .g4-g6 [class*=g6], .g4-g6 .g5, .g4-g6 [class*=g6], .g4-g6 .g6, .g4-g6 .g7, .g5-g7 .g5, .g5-g7 [class*=g6], .g5-g7 [class*=g7], .g5-g7 .g6, .g5-g7 [class*=g7], .g5-g7 .g7, .g5-g7 .g8, .g6-g8 .g6, .g6-g8 [class*=g7], .g6-g8 [class*=g8], .g6-g8 .g7, .g6-g8 [class*=g8], .g6-g8 .g8, .g6-g8 .g9, .g7-g9 .g7, .g7-g9 [class*=g8], .g7-g9 [class*=g9], .g7-g9 .g8, .g7-g9 [class*=g9], .g7-g9 .g9, .g7-g9 .g10 {
+  margin-right: 5.57491289%; }
+
+.g1-g4 .g1, .g1-g4 [class*=g2], .g1-g4 [class*=g3], .g1-g4 [class*=g4], .g1-g4 .g2, .g1-g4 [class*=g3], .g1-g4 [class*=g4], .g1-g4 .g3, .g1-g4 [class*=g4], .g1-g4 .g4, .g1-g4 .g5, .g2-g5 .g2, .g2-g5 [class*=g3], .g2-g5 [class*=g4], .g2-g5 [class*=g5], .g2-g5 .g3, .g2-g5 [class*=g4], .g2-g5 [class*=g5], .g2-g5 .g4, .g2-g5 [class*=g5], .g2-g5 .g5, .g2-g5 .g6, .g3-g6 .g3, .g3-g6 [class*=g4], .g3-g6 [class*=g5], .g3-g6 [class*=g6], .g3-g6 .g4, .g3-g6 [class*=g5], .g3-g6 [class*=g6], .g3-g6 .g5, .g3-g6 [class*=g6], .g3-g6 .g6, .g3-g6 .g7, .g4-g7 .g4, .g4-g7 [class*=g5], .g4-g7 [class*=g6], .g4-g7 [class*=g7], .g4-g7 .g5, .g4-g7 [class*=g6], .g4-g7 [class*=g7], .g4-g7 .g6, .g4-g7 [class*=g7], .g4-g7 .g7, .g4-g7 .g8, .g5-g8 .g5, .g5-g8 [class*=g6], .g5-g8 [class*=g7], .g5-g8 [class*=g8], .g5-g8 .g6, .g5-g8 [class*=g7], .g5-g8 [class*=g8], .g5-g8 .g7, .g5-g8 [class*=g8], .g5-g8 .g8, .g5-g8 .g9, .g6-g9 .g6, .g6-g9 [class*=g7], .g6-g9 [class*=g8], .g6-g9 [class*=g9], .g6-g9 .g7, .g6-g9 [class*=g8], .g6-g9 [class*=g9], .g6-g9 .g8, .g6-g9 [class*=g9], .g6-g9 .g9, .g6-g9 .g10 {
+  margin-right: 4.12371134%; }
+
+.g1-g5 .g1, .g1-g5 [class*=g2], .g1-g5 [class*=g3], .g1-g5 [class*=g4], .g1-g5 [class*=g5], .g1-g5 .g2, .g1-g5 [class*=g3], .g1-g5 [class*=g4], .g1-g5 [class*=g5], .g1-g5 .g3, .g1-g5 [class*=g4], .g1-g5 [class*=g5], .g1-g5 .g4, .g1-g5 [class*=g5], .g1-g5 .g5, .g1-g5 .g6, .g2-g6 .g2, .g2-g6 [class*=g3], .g2-g6 [class*=g4], .g2-g6 [class*=g5], .g2-g6 [class*=g6], .g2-g6 .g3, .g2-g6 [class*=g4], .g2-g6 [class*=g5], .g2-g6 [class*=g6], .g2-g6 .g4, .g2-g6 [class*=g5], .g2-g6 [class*=g6], .g2-g6 .g5, .g2-g6 [class*=g6], .g2-g6 .g6, .g2-g6 .g7, .g3-g7 .g3, .g3-g7 [class*=g4], .g3-g7 [class*=g5], .g3-g7 [class*=g6], .g3-g7 [class*=g7], .g3-g7 .g4, .g3-g7 [class*=g5], .g3-g7 [class*=g6], .g3-g7 [class*=g7], .g3-g7 .g5, .g3-g7 [class*=g6], .g3-g7 [class*=g7], .g3-g7 .g6, .g3-g7 [class*=g7], .g3-g7 .g7, .g3-g7 .g8, .g4-g8 .g4, .g4-g8 [class*=g5], .g4-g8 [class*=g6], .g4-g8 [class*=g7], .g4-g8 [class*=g8], .g4-g8 .g5, .g4-g8 [class*=g6], .g4-g8 [class*=g7], .g4-g8 [class*=g8], .g4-g8 .g6, .g4-g8 [class*=g7], .g4-g8 [class*=g8], .g4-g8 .g7, .g4-g8 [class*=g8], .g4-g8 .g8, .g4-g8 .g9, .g5-g9 .g5, .g5-g9 [class*=g6], .g5-g9 [class*=g7], .g5-g9 [class*=g8], .g5-g9 [class*=g9], .g5-g9 .g6, .g5-g9 [class*=g7], .g5-g9 [class*=g8], .g5-g9 [class*=g9], .g5-g9 .g7, .g5-g9 [class*=g8], .g5-g9 [class*=g9], .g5-g9 .g8, .g5-g9 [class*=g9], .g5-g9 .g9, .g5-g9 .g10 {
+  margin-right: 3.27198364%; }
+
+.g1-g6 .g1, .g1-g6 [class*=g2], .g1-g6 [class*=g3], .g1-g6 [class*=g4], .g1-g6 [class*=g5], .g1-g6 [class*=g6], .g1-g6 .g2, .g1-g6 [class*=g3], .g1-g6 [class*=g4], .g1-g6 [class*=g5], .g1-g6 [class*=g6], .g1-g6 .g3, .g1-g6 [class*=g4], .g1-g6 [class*=g5], .g1-g6 [class*=g6], .g1-g6 .g4, .g1-g6 [class*=g5], .g1-g6 [class*=g6], .g1-g6 .g5, .g1-g6 [class*=g6], .g1-g6 .g6, .g1-g6 .g7, .g2-g7 .g2, .g2-g7 [class*=g3], .g2-g7 [class*=g4], .g2-g7 [class*=g5], .g2-g7 [class*=g6], .g2-g7 [class*=g7], .g2-g7 .g3, .g2-g7 [class*=g4], .g2-g7 [class*=g5], .g2-g7 [class*=g6], .g2-g7 [class*=g7], .g2-g7 .g4, .g2-g7 [class*=g5], .g2-g7 [class*=g6], .g2-g7 [class*=g7], .g2-g7 .g5, .g2-g7 [class*=g6], .g2-g7 [class*=g7], .g2-g7 .g6, .g2-g7 [class*=g7], .g2-g7 .g7, .g2-g7 .g8, .g3-g8 .g3, .g3-g8 [class*=g4], .g3-g8 [class*=g5], .g3-g8 [class*=g6], .g3-g8 [class*=g7], .g3-g8 [class*=g8], .g3-g8 .g4, .g3-g8 [class*=g5], .g3-g8 [class*=g6], .g3-g8 [class*=g7], .g3-g8 [class*=g8], .g3-g8 .g5, .g3-g8 [class*=g6], .g3-g8 [class*=g7], .g3-g8 [class*=g8], .g3-g8 .g6, .g3-g8 [class*=g7], .g3-g8 [class*=g8], .g3-g8 .g7, .g3-g8 [class*=g8], .g3-g8 .g8, .g3-g8 .g9, .g4-g9 .g4, .g4-g9 [class*=g5], .g4-g9 [class*=g6], .g4-g9 [class*=g7], .g4-g9 [class*=g8], .g4-g9 [class*=g9], .g4-g9 .g5, .g4-g9 [class*=g6], .g4-g9 [class*=g7], .g4-g9 [class*=g8], .g4-g9 [class*=g9], .g4-g9 .g6, .g4-g9 [class*=g7], .g4-g9 [class*=g8], .g4-g9 [class*=g9], .g4-g9 .g7, .g4-g9 [class*=g8], .g4-g9 [class*=g9], .g4-g9 .g8, .g4-g9 [class*=g9], .g4-g9 .g9, .g4-g9 .g10 {
+  margin-right: 2.71186441%; }
+
+.g1-g7 .g1, .g1-g7 [class*=g2], .g1-g7 [class*=g3], .g1-g7 [class*=g4], .g1-g7 [class*=g5], .g1-g7 [class*=g6], .g1-g7 [class*=g7], .g1-g7 .g2, .g1-g7 [class*=g3], .g1-g7 [class*=g4], .g1-g7 [class*=g5], .g1-g7 [class*=g6], .g1-g7 [class*=g7], .g1-g7 .g3, .g1-g7 [class*=g4], .g1-g7 [class*=g5], .g1-g7 [class*=g6], .g1-g7 [class*=g7], .g1-g7 .g4, .g1-g7 [class*=g5], .g1-g7 [class*=g6], .g1-g7 [class*=g7], .g1-g7 .g5, .g1-g7 [class*=g6], .g1-g7 [class*=g7], .g1-g7 .g6, .g1-g7 [class*=g7], .g1-g7 .g7, .g1-g7 .g8, .g2-g8 .g2, .g2-g8 [class*=g3], .g2-g8 [class*=g4], .g2-g8 [class*=g5], .g2-g8 [class*=g6], .g2-g8 [class*=g7], .g2-g8 [class*=g8], .g2-g8 .g3, .g2-g8 [class*=g4], .g2-g8 [class*=g5], .g2-g8 [class*=g6], .g2-g8 [class*=g7], .g2-g8 [class*=g8], .g2-g8 .g4, .g2-g8 [class*=g5], .g2-g8 [class*=g6], .g2-g8 [class*=g7], .g2-g8 [class*=g8], .g2-g8 .g5, .g2-g8 [class*=g6], .g2-g8 [class*=g7], .g2-g8 [class*=g8], .g2-g8 .g6, .g2-g8 [class*=g7], .g2-g8 [class*=g8], .g2-g8 .g7, .g2-g8 [class*=g8], .g2-g8 .g8, .g2-g8 .g9, .g3-g9 .g3, .g3-g9 [class*=g4], .g3-g9 [class*=g5], .g3-g9 [class*=g6], .g3-g9 [class*=g7], .g3-g9 [class*=g8], .g3-g9 [class*=g9], .g3-g9 .g4, .g3-g9 [class*=g5], .g3-g9 [class*=g6], .g3-g9 [class*=g7], .g3-g9 [class*=g8], .g3-g9 [class*=g9], .g3-g9 .g5, .g3-g9 [class*=g6], .g3-g9 [class*=g7], .g3-g9 [class*=g8], .g3-g9 [class*=g9], .g3-g9 .g6, .g3-g9 [class*=g7], .g3-g9 [class*=g8], .g3-g9 [class*=g9], .g3-g9 .g7, .g3-g9 [class*=g8], .g3-g9 [class*=g9], .g3-g9 .g8, .g3-g9 [class*=g9], .g3-g9 .g9, .g3-g9 .g10 {
+  margin-right: 2.3154848%; }
+
+.g1-g8 .g1, .g1-g8 [class*=g2], .g1-g8 [class*=g3], .g1-g8 [class*=g4], .g1-g8 [class*=g5], .g1-g8 [class*=g6], .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g2, .g1-g8 [class*=g3], .g1-g8 [class*=g4], .g1-g8 [class*=g5], .g1-g8 [class*=g6], .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g3, .g1-g8 [class*=g4], .g1-g8 [class*=g5], .g1-g8 [class*=g6], .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g4, .g1-g8 [class*=g5], .g1-g8 [class*=g6], .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g5, .g1-g8 [class*=g6], .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g6, .g1-g8 [class*=g7], .g1-g8 [class*=g8], .g1-g8 .g7, .g1-g8 [class*=g8], .g1-g8 .g8, .g1-g8 .g9, .g2-g9 .g2, .g2-g9 [class*=g3], .g2-g9 [class*=g4], .g2-g9 [class*=g5], .g2-g9 [class*=g6], .g2-g9 [class*=g7], .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g3, .g2-g9 [class*=g4], .g2-g9 [class*=g5], .g2-g9 [class*=g6], .g2-g9 [class*=g7], .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g4, .g2-g9 [class*=g5], .g2-g9 [class*=g6], .g2-g9 [class*=g7], .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g5, .g2-g9 [class*=g6], .g2-g9 [class*=g7], .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g6, .g2-g9 [class*=g7], .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g7, .g2-g9 [class*=g8], .g2-g9 [class*=g9], .g2-g9 .g8, .g2-g9 [class*=g9], .g2-g9 .g9, .g2-g9 .g10 {
+  margin-right: 2.02020202%; }
+
+[class*=-g2] .g2, [class*=-g2] [class*=-g2], [class*=-g3] .g3, [class*=-g3] [class*=-g3], [class*=-g4] .g4, [class*=-g4] [class*=-g4], [class*=-g5] .g5, [class*=-g5] [class*=-g5], [class*=-g6] .g6, [class*=-g6] [class*=-g6], [class*=-g7] .g7, [class*=-g7] [class*=-g7], [class*=-g8] .g8, [class*=-g8] [class*=-g8], [class*=-g9] .g9, [class*=-g9] [class*=-g9], [class*=-g8], .g8 {
+  margin-right: 0;
+  float: right; }
+
+/* Grid grid padding ----- */
+/* ---------------------------- TO DO... Later @if needed */
+/* Grid grid relationships ----- */
+.g2, [class*=g2-], .g1 + .g3, .g1 + [class*=g3-], [class*=-g1] + .g3, [class*=-g1] + [class*=g3-], .g2 + .g4, .g2 + [class*=g4-], [class*=-g2] + .g4, [class*=-g2] + [class*=g4-], .g3 + .g5, .g3 + [class*=g5-], [class*=-g3] + .g5, [class*=-g3] + [class*=g5-], .g4 + .g6, .g4 + [class*=g6-], [class*=-g4] + .g6, [class*=-g4] + [class*=g6-], .g5 + .g7, .g5 + [class*=g7-], [class*=-g5] + .g7, [class*=-g5] + [class*=g7-], .g6 + .g8, .g6 + [class*=g8-], [class*=-g6] + .g8, [class*=-g6] + [class*=g8-] {
+  margin-left: 12.75252525%; }
+
+.g3, [class*=g3-], .g1 + .g4, .g1 + [class*=g4-], [class*=-g1] + .g4, [class*=-g1] + [class*=g4-], .g2 + .g5, .g2 + [class*=g5-], [class*=-g2] + .g5, [class*=-g2] + [class*=g5-], .g3 + .g6, .g3 + [class*=g6-], [class*=-g3] + .g6, [class*=-g3] + [class*=g6-], .g4 + .g7, .g4 + [class*=g7-], [class*=-g4] + .g7, [class*=-g4] + [class*=g7-], .g5 + .g8, .g5 + [class*=g8-], [class*=-g5] + .g8, [class*=-g5] + [class*=g8-] {
+  margin-left: 25.50505051%; }
+
+.g4, [class*=g4-], .g1 + .g5, .g1 + [class*=g5-], [class*=-g1] + .g5, [class*=-g1] + [class*=g5-], .g2 + .g6, .g2 + [class*=g6-], [class*=-g2] + .g6, [class*=-g2] + [class*=g6-], .g3 + .g7, .g3 + [class*=g7-], [class*=-g3] + .g7, [class*=-g3] + [class*=g7-], .g4 + .g8, .g4 + [class*=g8-], [class*=-g4] + .g8, [class*=-g4] + [class*=g8-] {
+  margin-left: 38.25757576%; }
+
+.g5, [class*=g5-], .g1 + .g6, .g1 + [class*=g6-], [class*=-g1] + .g6, [class*=-g1] + [class*=g6-], .g2 + .g7, .g2 + [class*=g7-], [class*=-g2] + .g7, [class*=-g2] + [class*=g7-], .g3 + .g8, .g3 + [class*=g8-], [class*=-g3] + .g8, [class*=-g3] + [class*=g8-] {
+  margin-left: 51.01010101%; }
+
+.g6, [class*=g6-], .g1 + .g7, .g1 + [class*=g7-], [class*=-g1] + .g7, [class*=-g1] + [class*=g7-], .g2 + .g8, .g2 + [class*=g8-], [class*=-g2] + .g8, [class*=-g2] + [class*=g8-] {
+  margin-left: 63.76262626%; }
+
+.g7, [class*=g7-], .g1 + .g8, .g1 + [class*=g8-], [class*=-g1] + .g8, [class*=-g1] + [class*=g8-] {
+  margin-left: 76.51515152%; }
+
+.g8, [class*=g8-] {
+  margin-left: 89.26767677%; }
+
+.g9 {
+  margin-left: 102.02020202%; }
+
+/* sub grid relationship */
+g1-g3 .g1 + .g3, .g1-g3 .g2, .g1-g3 [class*=g2-], .g1-g3 [class*=g2-][class*=g2-].g-clear, .g1-g3 .g2.g2.g-clear, g2-g4 .g2 + .g4, .g2-g4 .g3, .g2-g4 [class*=g3-], .g2-g4 [class*=g3-][class*=g3-].g-clear, .g2-g4 .g3.g3.g-clear, g3-g5 .g3 + .g5, .g3-g5 .g4, .g3-g5 [class*=g4-], .g3-g5 [class*=g4-][class*=g4-].g-clear, .g3-g5 .g4.g4.g-clear, g4-g6 .g4 + .g6, .g4-g6 .g5, .g4-g6 [class*=g5-], .g4-g6 [class*=g5-][class*=g5-].g-clear, .g4-g6 .g5.g5.g-clear, g5-g7 .g5 + .g7, .g5-g7 .g6, .g5-g7 [class*=g6-], .g5-g7 [class*=g6-][class*=g6-].g-clear, .g5-g7 .g6.g6.g-clear, g6-g8 .g6 + .g8, .g6-g8 .g7, .g6-g8 [class*=g7-], .g6-g8 [class*=g7-][class*=g7-].g-clear, .g6-g8 .g7.g7.g-clear, g7-g9 .g7 + .g9, .g7-g9 .g8, .g7-g9 [class*=g8-], .g7-g9 [class*=g8-][class*=g8-].g-clear, .g7-g9 .g8.g8.g-clear {
+  margin-left: 35.19163763%; }
+
+g1-g4 .g1 + .g3, .g1-g4 [class*=-g1] + [class*=g3-], .g1-g4 .g1 + [class*=g3-], .g1-g4 .g2, .g1-g4 [class*=g2-], .g1-g4 [class*=g2-][class*=g2-].g-clear, .g1-g4 .g2.g2.g-clear, g1-g4 .g2 + .g4, .g1-g4 [class*=-g2] + .g4, g2-g5 .g2 + .g4, .g2-g5 [class*=-g2] + [class*=g4-], .g2-g5 .g2 + [class*=g4-], .g2-g5 .g3, .g2-g5 [class*=g3-], .g2-g5 [class*=g3-][class*=g3-].g-clear, .g2-g5 .g3.g3.g-clear, g2-g5 .g3 + .g5, .g2-g5 [class*=-g3] + .g5, g3-g6 .g3 + .g5, .g3-g6 [class*=-g3] + [class*=g5-], .g3-g6 .g3 + [class*=g5-], .g3-g6 .g4, .g3-g6 [class*=g4-], .g3-g6 [class*=g4-][class*=g4-].g-clear, .g3-g6 .g4.g4.g-clear, g3-g6 .g4 + .g6, .g3-g6 [class*=-g4] + .g6, g4-g7 .g4 + .g6, .g4-g7 [class*=-g4] + [class*=g6-], .g4-g7 .g4 + [class*=g6-], .g4-g7 .g5, .g4-g7 [class*=g5-], .g4-g7 [class*=g5-][class*=g5-].g-clear, .g4-g7 .g5.g5.g-clear, g4-g7 .g5 + .g7, .g4-g7 [class*=-g5] + .g7, g5-g8 .g5 + .g7, .g5-g8 [class*=-g5] + [class*=g7-], .g5-g8 .g5 + [class*=g7-], .g5-g8 .g6, .g5-g8 [class*=g6-], .g5-g8 [class*=g6-][class*=g6-].g-clear, .g5-g8 .g6.g6.g-clear, g5-g8 .g6 + .g8, .g5-g8 [class*=-g6] + .g8, g6-g9 .g6 + .g8, .g6-g9 [class*=-g6] + [class*=g8-], .g6-g9 .g6 + [class*=g8-], .g6-g9 .g7, .g6-g9 [class*=g7-], .g6-g9 [class*=g7-][class*=g7-].g-clear, .g6-g9 .g7.g7.g-clear, g6-g9 .g7 + .g9, .g6-g9 [class*=-g7] + .g9 {
+  margin-left: 26.03092784%; }
+
+g1-g4 .g1 + .g4, .g1-g4 .g3, .g1-g4 [class*=g3-], .g1-g4 [class*=g3-][class*=g3-].g-clear, .g1-g4 .g3.g3.g-clear, g2-g5 .g2 + .g5, .g2-g5 .g4, .g2-g5 [class*=g4-], .g2-g5 [class*=g4-][class*=g4-].g-clear, .g2-g5 .g4.g4.g-clear, g3-g6 .g3 + .g6, .g3-g6 .g5, .g3-g6 [class*=g5-], .g3-g6 [class*=g5-][class*=g5-].g-clear, .g3-g6 .g5.g5.g-clear, g4-g7 .g4 + .g7, .g4-g7 .g6, .g4-g7 [class*=g6-], .g4-g7 [class*=g6-][class*=g6-].g-clear, .g4-g7 .g6.g6.g-clear, g5-g8 .g5 + .g8, .g5-g8 .g7, .g5-g8 [class*=g7-], .g5-g8 [class*=g7-][class*=g7-].g-clear, .g5-g8 .g7.g7.g-clear, g6-g9 .g6 + .g9, .g6-g9 .g8, .g6-g9 [class*=g8-], .g6-g9 [class*=g8-][class*=g8-].g-clear, .g6-g9 .g8.g8.g-clear {
+  margin-left: 52.06185567%; }
+
+g1-g5 .g1 + .g3, .g1-g5 [class*=-g1] + [class*=g3-], .g1-g5 .g1 + [class*=g3-], .g1-g5 .g2, .g1-g5 [class*=g2-], .g1-g5 [class*=g2-][class*=g2-].g-clear, .g1-g5 .g2.g2.g-clear, g1-g5 .g2 + .g4, .g1-g5 [class*=-g2] + .g4, .g1-g5 [class*=-g2] + [class*=g4-], .g1-g5 .g2 + [class*=g4-], g1-g5 .g3 + .g5, .g1-g5 [class*=-g3] + .g5, g2-g6 .g2 + .g4, .g2-g6 [class*=-g2] + [class*=g4-], .g2-g6 .g2 + [class*=g4-], .g2-g6 .g3, .g2-g6 [class*=g3-], .g2-g6 [class*=g3-][class*=g3-].g-clear, .g2-g6 .g3.g3.g-clear, g2-g6 .g3 + .g5, .g2-g6 [class*=-g3] + .g5, .g2-g6 [class*=-g3] + [class*=g5-], .g2-g6 .g3 + [class*=g5-], g2-g6 .g4 + .g6, .g2-g6 [class*=-g4] + .g6, g3-g7 .g3 + .g5, .g3-g7 [class*=-g3] + [class*=g5-], .g3-g7 .g3 + [class*=g5-], .g3-g7 .g4, .g3-g7 [class*=g4-], .g3-g7 [class*=g4-][class*=g4-].g-clear, .g3-g7 .g4.g4.g-clear, g3-g7 .g4 + .g6, .g3-g7 [class*=-g4] + .g6, .g3-g7 [class*=-g4] + [class*=g6-], .g3-g7 .g4 + [class*=g6-], g3-g7 .g5 + .g7, .g3-g7 [class*=-g5] + .g7, g4-g8 .g4 + .g6, .g4-g8 [class*=-g4] + [class*=g6-], .g4-g8 .g4 + [class*=g6-], .g4-g8 .g5, .g4-g8 [class*=g5-], .g4-g8 [class*=g5-][class*=g5-].g-clear, .g4-g8 .g5.g5.g-clear, g4-g8 .g5 + .g7, .g4-g8 [class*=-g5] + .g7, .g4-g8 [class*=-g5] + [class*=g7-], .g4-g8 .g5 + [class*=g7-], g4-g8 .g6 + .g8, .g4-g8 [class*=-g6] + .g8, g5-g9 .g5 + .g7, .g5-g9 [class*=-g5] + [class*=g7-], .g5-g9 .g5 + [class*=g7-], .g5-g9 .g6, .g5-g9 [class*=g6-], .g5-g9 [class*=g6-][class*=g6-].g-clear, .g5-g9 .g6.g6.g-clear, g5-g9 .g6 + .g8, .g5-g9 [class*=-g6] + .g8, .g5-g9 [class*=-g6] + [class*=g8-], .g5-g9 .g6 + [class*=g8-], g5-g9 .g7 + .g9, .g5-g9 [class*=-g7] + .g9 {
+  margin-left: 20.65439673%; }
+
+g1-g5 .g1 + .g4, .g1-g5 [class*=-g1] + [class*=g4-], .g1-g5 .g1 + [class*=g4-], g1-g5 .g2 + .g5, .g1-g5 [class*=-g2] + .g5, .g1-g5 .g3, .g1-g5 [class*=g3-], .g1-g5 [class*=g3-][class*=g3-].g-clear, .g1-g5 .g3.g3.g-clear, g2-g6 .g2 + .g5, .g2-g6 [class*=-g2] + [class*=g5-], .g2-g6 .g2 + [class*=g5-], g2-g6 .g3 + .g6, .g2-g6 [class*=-g3] + .g6, .g2-g6 .g4, .g2-g6 [class*=g4-], .g2-g6 [class*=g4-][class*=g4-].g-clear, .g2-g6 .g4.g4.g-clear, g3-g7 .g3 + .g6, .g3-g7 [class*=-g3] + [class*=g6-], .g3-g7 .g3 + [class*=g6-], g3-g7 .g4 + .g7, .g3-g7 [class*=-g4] + .g7, .g3-g7 .g5, .g3-g7 [class*=g5-], .g3-g7 [class*=g5-][class*=g5-].g-clear, .g3-g7 .g5.g5.g-clear, g4-g8 .g4 + .g7, .g4-g8 [class*=-g4] + [class*=g7-], .g4-g8 .g4 + [class*=g7-], g4-g8 .g5 + .g8, .g4-g8 [class*=-g5] + .g8, .g4-g8 .g6, .g4-g8 [class*=g6-], .g4-g8 [class*=g6-][class*=g6-].g-clear, .g4-g8 .g6.g6.g-clear, g5-g9 .g5 + .g8, .g5-g9 [class*=-g5] + [class*=g8-], .g5-g9 .g5 + [class*=g8-], g5-g9 .g6 + .g9, .g5-g9 [class*=-g6] + .g9, .g5-g9 .g7, .g5-g9 [class*=g7-], .g5-g9 [class*=g7-][class*=g7-].g-clear, .g5-g9 .g7.g7.g-clear {
+  margin-left: 41.30879346%; }
+
+g1-g5 .g1 + .g5, .g1-g5 .g4, .g1-g5 [class*=g4-], .g1-g5 [class*=g4-][class*=g4-].g-clear, .g1-g5 .g4.g4.g-clear, g2-g6 .g2 + .g6, .g2-g6 .g5, .g2-g6 [class*=g5-], .g2-g6 [class*=g5-][class*=g5-].g-clear, .g2-g6 .g5.g5.g-clear, g3-g7 .g3 + .g7, .g3-g7 .g6, .g3-g7 [class*=g6-], .g3-g7 [class*=g6-][class*=g6-].g-clear, .g3-g7 .g6.g6.g-clear, g4-g8 .g4 + .g8, .g4-g8 .g7, .g4-g8 [class*=g7-], .g4-g8 [class*=g7-][class*=g7-].g-clear, .g4-g8 .g7.g7.g-clear, g5-g9 .g5 + .g9, .g5-g9 .g8, .g5-g9 [class*=g8-], .g5-g9 [class*=g8-][class*=g8-].g-clear, .g5-g9 .g8.g8.g-clear {
+  margin-left: 61.96319018%; }
+
+g1-g6 .g1 + .g3, .g1-g6 [class*=-g1] + [class*=g3-], .g1-g6 .g1 + [class*=g3-], .g1-g6 .g2, .g1-g6 [class*=g2-], .g1-g6 [class*=g2-][class*=g2-].g-clear, .g1-g6 .g2.g2.g-clear, g1-g6 .g2 + .g4, .g1-g6 [class*=-g2] + .g4, .g1-g6 [class*=-g2] + [class*=g4-], .g1-g6 .g2 + [class*=g4-], g1-g6 .g3 + .g5, .g1-g6 [class*=-g3] + .g5, .g1-g6 [class*=-g3] + [class*=g5-], .g1-g6 .g3 + [class*=g5-], g1-g6 .g4 + .g6, .g1-g6 [class*=-g4] + .g6, g2-g7 .g2 + .g4, .g2-g7 [class*=-g2] + [class*=g4-], .g2-g7 .g2 + [class*=g4-], .g2-g7 .g3, .g2-g7 [class*=g3-], .g2-g7 [class*=g3-][class*=g3-].g-clear, .g2-g7 .g3.g3.g-clear, g2-g7 .g3 + .g5, .g2-g7 [class*=-g3] + .g5, .g2-g7 [class*=-g3] + [class*=g5-], .g2-g7 .g3 + [class*=g5-], g2-g7 .g4 + .g6, .g2-g7 [class*=-g4] + .g6, .g2-g7 [class*=-g4] + [class*=g6-], .g2-g7 .g4 + [class*=g6-], g2-g7 .g5 + .g7, .g2-g7 [class*=-g5] + .g7, g3-g8 .g3 + .g5, .g3-g8 [class*=-g3] + [class*=g5-], .g3-g8 .g3 + [class*=g5-], .g3-g8 .g4, .g3-g8 [class*=g4-], .g3-g8 [class*=g4-][class*=g4-].g-clear, .g3-g8 .g4.g4.g-clear, g3-g8 .g4 + .g6, .g3-g8 [class*=-g4] + .g6, .g3-g8 [class*=-g4] + [class*=g6-], .g3-g8 .g4 + [class*=g6-], g3-g8 .g5 + .g7, .g3-g8 [class*=-g5] + .g7, .g3-g8 [class*=-g5] + [class*=g7-], .g3-g8 .g5 + [class*=g7-], g3-g8 .g6 + .g8, .g3-g8 [class*=-g6] + .g8, g4-g9 .g4 + .g6, .g4-g9 [class*=-g4] + [class*=g6-], .g4-g9 .g4 + [class*=g6-], .g4-g9 .g5, .g4-g9 [class*=g5-], .g4-g9 [class*=g5-][class*=g5-].g-clear, .g4-g9 .g5.g5.g-clear, g4-g9 .g5 + .g7, .g4-g9 [class*=-g5] + .g7, .g4-g9 [class*=-g5] + [class*=g7-], .g4-g9 .g5 + [class*=g7-], g4-g9 .g6 + .g8, .g4-g9 [class*=-g6] + .g8, .g4-g9 [class*=-g6] + [class*=g8-], .g4-g9 .g6 + [class*=g8-], g4-g9 .g7 + .g9, .g4-g9 [class*=-g7] + .g9 {
+  margin-left: 17.11864407%; }
+
+g1-g6 .g1 + .g4, .g1-g6 [class*=-g1] + [class*=g4-], .g1-g6 .g1 + [class*=g4-], g1-g6 .g2 + .g5, .g1-g6 [class*=-g2] + .g5, .g1-g6 [class*=-g2] + [class*=g5-], .g1-g6 .g2 + [class*=g5-], .g1-g6 .g3, .g1-g6 [class*=g3-], .g1-g6 [class*=g3-][class*=g3-].g-clear, .g1-g6 .g3.g3.g-clear, g1-g6 .g3 + .g6, .g1-g6 [class*=-g3] + .g6, g2-g7 .g2 + .g5, .g2-g7 [class*=-g2] + [class*=g5-], .g2-g7 .g2 + [class*=g5-], g2-g7 .g3 + .g6, .g2-g7 [class*=-g3] + .g6, .g2-g7 [class*=-g3] + [class*=g6-], .g2-g7 .g3 + [class*=g6-], .g2-g7 .g4, .g2-g7 [class*=g4-], .g2-g7 [class*=g4-][class*=g4-].g-clear, .g2-g7 .g4.g4.g-clear, g2-g7 .g4 + .g7, .g2-g7 [class*=-g4] + .g7, g3-g8 .g3 + .g6, .g3-g8 [class*=-g3] + [class*=g6-], .g3-g8 .g3 + [class*=g6-], g3-g8 .g4 + .g7, .g3-g8 [class*=-g4] + .g7, .g3-g8 [class*=-g4] + [class*=g7-], .g3-g8 .g4 + [class*=g7-], .g3-g8 .g5, .g3-g8 [class*=g5-], .g3-g8 [class*=g5-][class*=g5-].g-clear, .g3-g8 .g5.g5.g-clear, g3-g8 .g5 + .g8, .g3-g8 [class*=-g5] + .g8, g4-g9 .g4 + .g7, .g4-g9 [class*=-g4] + [class*=g7-], .g4-g9 .g4 + [class*=g7-], g4-g9 .g5 + .g8, .g4-g9 [class*=-g5] + .g8, .g4-g9 [class*=-g5] + [class*=g8-], .g4-g9 .g5 + [class*=g8-], .g4-g9 .g6, .g4-g9 [class*=g6-], .g4-g9 [class*=g6-][class*=g6-].g-clear, .g4-g9 .g6.g6.g-clear, g4-g9 .g6 + .g9, .g4-g9 [class*=-g6] + .g9 {
+  margin-left: 34.23728814%; }
+
+g1-g6 .g1 + .g5, .g1-g6 [class*=-g1] + [class*=g5-], .g1-g6 .g1 + [class*=g5-], g1-g6 .g2 + .g6, .g1-g6 [class*=-g2] + .g6, .g1-g6 .g4, .g1-g6 [class*=g4-], .g1-g6 [class*=g4-][class*=g4-].g-clear, .g1-g6 .g4.g4.g-clear, g2-g7 .g2 + .g6, .g2-g7 [class*=-g2] + [class*=g6-], .g2-g7 .g2 + [class*=g6-], g2-g7 .g3 + .g7, .g2-g7 [class*=-g3] + .g7, .g2-g7 .g5, .g2-g7 [class*=g5-], .g2-g7 [class*=g5-][class*=g5-].g-clear, .g2-g7 .g5.g5.g-clear, g3-g8 .g3 + .g7, .g3-g8 [class*=-g3] + [class*=g7-], .g3-g8 .g3 + [class*=g7-], g3-g8 .g4 + .g8, .g3-g8 [class*=-g4] + .g8, .g3-g8 .g6, .g3-g8 [class*=g6-], .g3-g8 [class*=g6-][class*=g6-].g-clear, .g3-g8 .g6.g6.g-clear, g4-g9 .g4 + .g8, .g4-g9 [class*=-g4] + [class*=g8-], .g4-g9 .g4 + [class*=g8-], g4-g9 .g5 + .g9, .g4-g9 [class*=-g5] + .g9, .g4-g9 .g7, .g4-g9 [class*=g7-], .g4-g9 [class*=g7-][class*=g7-].g-clear, .g4-g9 .g7.g7.g-clear {
+  margin-left: 51.3559322%; }
+
+g1-g6 .g1 + .g6, .g1-g6 .g5, .g1-g6 [class*=g5-], .g1-g6 [class*=g5-][class*=g5-].g-clear, .g1-g6 .g5.g5.g-clear, g2-g7 .g2 + .g7, .g2-g7 .g6, .g2-g7 [class*=g6-], .g2-g7 [class*=g6-][class*=g6-].g-clear, .g2-g7 .g6.g6.g-clear, g3-g8 .g3 + .g8, .g3-g8 .g7, .g3-g8 [class*=g7-], .g3-g8 [class*=g7-][class*=g7-].g-clear, .g3-g8 .g7.g7.g-clear, g4-g9 .g4 + .g9, .g4-g9 .g8, .g4-g9 [class*=g8-], .g4-g9 [class*=g8-][class*=g8-].g-clear, .g4-g9 .g8.g8.g-clear {
+  margin-left: 68.47457627%; }
+
+g1-g7 .g1 + .g3, .g1-g7 [class*=-g1] + [class*=g3-], .g1-g7 .g1 + [class*=g3-], .g1-g7 .g2, .g1-g7 [class*=g2-], .g1-g7 [class*=g2-][class*=g2-].g-clear, .g1-g7 .g2.g2.g-clear, g1-g7 .g2 + .g4, .g1-g7 [class*=-g2] + .g4, .g1-g7 [class*=-g2] + [class*=g4-], .g1-g7 .g2 + [class*=g4-], g1-g7 .g3 + .g5, .g1-g7 [class*=-g3] + .g5, .g1-g7 [class*=-g3] + [class*=g5-], .g1-g7 .g3 + [class*=g5-], g1-g7 .g4 + .g6, .g1-g7 [class*=-g4] + .g6, .g1-g7 [class*=-g4] + [class*=g6-], .g1-g7 .g4 + [class*=g6-], g1-g7 .g5 + .g7, .g1-g7 [class*=-g5] + .g7, g2-g8 .g2 + .g4, .g2-g8 [class*=-g2] + [class*=g4-], .g2-g8 .g2 + [class*=g4-], .g2-g8 .g3, .g2-g8 [class*=g3-], .g2-g8 [class*=g3-][class*=g3-].g-clear, .g2-g8 .g3.g3.g-clear, g2-g8 .g3 + .g5, .g2-g8 [class*=-g3] + .g5, .g2-g8 [class*=-g3] + [class*=g5-], .g2-g8 .g3 + [class*=g5-], g2-g8 .g4 + .g6, .g2-g8 [class*=-g4] + .g6, .g2-g8 [class*=-g4] + [class*=g6-], .g2-g8 .g4 + [class*=g6-], g2-g8 .g5 + .g7, .g2-g8 [class*=-g5] + .g7, .g2-g8 [class*=-g5] + [class*=g7-], .g2-g8 .g5 + [class*=g7-], g2-g8 .g6 + .g8, .g2-g8 [class*=-g6] + .g8, g3-g9 .g3 + .g5, .g3-g9 [class*=-g3] + [class*=g5-], .g3-g9 .g3 + [class*=g5-], .g3-g9 .g4, .g3-g9 [class*=g4-], .g3-g9 [class*=g4-][class*=g4-].g-clear, .g3-g9 .g4.g4.g-clear, g3-g9 .g4 + .g6, .g3-g9 [class*=-g4] + .g6, .g3-g9 [class*=-g4] + [class*=g6-], .g3-g9 .g4 + [class*=g6-], g3-g9 .g5 + .g7, .g3-g9 [class*=-g5] + .g7, .g3-g9 [class*=-g5] + [class*=g7-], .g3-g9 .g5 + [class*=g7-], g3-g9 .g6 + .g8, .g3-g9 [class*=-g6] + .g8, .g3-g9 [class*=-g6] + [class*=g8-], .g3-g9 .g6 + [class*=g8-], g3-g9 .g7 + .g9, .g3-g9 [class*=-g7] + .g9 {
+  margin-left: 14.61649783%; }
+
+g1-g7 .g1 + .g4, .g1-g7 [class*=-g1] + [class*=g4-], .g1-g7 .g1 + [class*=g4-], g1-g7 .g2 + .g5, .g1-g7 [class*=-g2] + .g5, .g1-g7 [class*=-g2] + [class*=g5-], .g1-g7 .g2 + [class*=g5-], .g1-g7 .g3, .g1-g7 [class*=g3-], .g1-g7 [class*=g3-][class*=g3-].g-clear, .g1-g7 .g3.g3.g-clear, g1-g7 .g3 + .g6, .g1-g7 [class*=-g3] + .g6, .g1-g7 [class*=-g3] + [class*=g6-], .g1-g7 .g3 + [class*=g6-], g1-g7 .g4 + .g7, .g1-g7 [class*=-g4] + .g7, g2-g8 .g2 + .g5, .g2-g8 [class*=-g2] + [class*=g5-], .g2-g8 .g2 + [class*=g5-], g2-g8 .g3 + .g6, .g2-g8 [class*=-g3] + .g6, .g2-g8 [class*=-g3] + [class*=g6-], .g2-g8 .g3 + [class*=g6-], .g2-g8 .g4, .g2-g8 [class*=g4-], .g2-g8 [class*=g4-][class*=g4-].g-clear, .g2-g8 .g4.g4.g-clear, g2-g8 .g4 + .g7, .g2-g8 [class*=-g4] + .g7, .g2-g8 [class*=-g4] + [class*=g7-], .g2-g8 .g4 + [class*=g7-], g2-g8 .g5 + .g8, .g2-g8 [class*=-g5] + .g8, g3-g9 .g3 + .g6, .g3-g9 [class*=-g3] + [class*=g6-], .g3-g9 .g3 + [class*=g6-], g3-g9 .g4 + .g7, .g3-g9 [class*=-g4] + .g7, .g3-g9 [class*=-g4] + [class*=g7-], .g3-g9 .g4 + [class*=g7-], .g3-g9 .g5, .g3-g9 [class*=g5-], .g3-g9 [class*=g5-][class*=g5-].g-clear, .g3-g9 .g5.g5.g-clear, g3-g9 .g5 + .g8, .g3-g9 [class*=-g5] + .g8, .g3-g9 [class*=-g5] + [class*=g8-], .g3-g9 .g5 + [class*=g8-], g3-g9 .g6 + .g9, .g3-g9 [class*=-g6] + .g9 {
+  margin-left: 29.23299566%; }
+
+g1-g7 .g1 + .g5, .g1-g7 [class*=-g1] + [class*=g5-], .g1-g7 .g1 + [class*=g5-], g1-g7 .g2 + .g6, .g1-g7 [class*=-g2] + .g6, .g1-g7 [class*=-g2] + [class*=g6-], .g1-g7 .g2 + [class*=g6-], g1-g7 .g3 + .g7, .g1-g7 [class*=-g3] + .g7, .g1-g7 .g4, .g1-g7 [class*=g4-], .g1-g7 [class*=g4-][class*=g4-].g-clear, .g1-g7 .g4.g4.g-clear, g2-g8 .g2 + .g6, .g2-g8 [class*=-g2] + [class*=g6-], .g2-g8 .g2 + [class*=g6-], g2-g8 .g3 + .g7, .g2-g8 [class*=-g3] + .g7, .g2-g8 [class*=-g3] + [class*=g7-], .g2-g8 .g3 + [class*=g7-], g2-g8 .g4 + .g8, .g2-g8 [class*=-g4] + .g8, .g2-g8 .g5, .g2-g8 [class*=g5-], .g2-g8 [class*=g5-][class*=g5-].g-clear, .g2-g8 .g5.g5.g-clear, g3-g9 .g3 + .g7, .g3-g9 [class*=-g3] + [class*=g7-], .g3-g9 .g3 + [class*=g7-], g3-g9 .g4 + .g8, .g3-g9 [class*=-g4] + .g8, .g3-g9 [class*=-g4] + [class*=g8-], .g3-g9 .g4 + [class*=g8-], g3-g9 .g5 + .g9, .g3-g9 [class*=-g5] + .g9, .g3-g9 .g6, .g3-g9 [class*=g6-], .g3-g9 [class*=g6-][class*=g6-].g-clear, .g3-g9 .g6.g6.g-clear {
+  margin-left: 43.84949349%; }
+
+g1-g7 .g1 + .g6, .g1-g7 [class*=-g1] + [class*=g6-], .g1-g7 .g1 + [class*=g6-], g1-g7 .g2 + .g7, .g1-g7 [class*=-g2] + .g7, .g1-g7 .g5, .g1-g7 [class*=g5-], .g1-g7 [class*=g5-][class*=g5-].g-clear, .g1-g7 .g5.g5.g-clear, g2-g8 .g2 + .g7, .g2-g8 [class*=-g2] + [class*=g7-], .g2-g8 .g2 + [class*=g7-], g2-g8 .g3 + .g8, .g2-g8 [class*=-g3] + .g8, .g2-g8 .g6, .g2-g8 [class*=g6-], .g2-g8 [class*=g6-][class*=g6-].g-clear, .g2-g8 .g6.g6.g-clear, g3-g9 .g3 + .g8, .g3-g9 [class*=-g3] + [class*=g8-], .g3-g9 .g3 + [class*=g8-], g3-g9 .g4 + .g9, .g3-g9 [class*=-g4] + .g9, .g3-g9 .g7, .g3-g9 [class*=g7-], .g3-g9 [class*=g7-][class*=g7-].g-clear, .g3-g9 .g7.g7.g-clear {
+  margin-left: 58.46599132%; }
+
+g1-g7 .g1 + .g7, .g1-g7 .g6, .g1-g7 [class*=g6-], .g1-g7 [class*=g6-][class*=g6-].g-clear, .g1-g7 .g6.g6.g-clear, g2-g8 .g2 + .g8, .g2-g8 .g7, .g2-g8 [class*=g7-], .g2-g8 [class*=g7-][class*=g7-].g-clear, .g2-g8 .g7.g7.g-clear, g3-g9 .g3 + .g9, .g3-g9 .g8, .g3-g9 [class*=g8-], .g3-g9 [class*=g8-][class*=g8-].g-clear, .g3-g9 .g8.g8.g-clear {
+  margin-left: 73.08248915%; }
+
+g1-g8 .g1 + .g3, .g1-g8 [class*=-g1] + [class*=g3-], .g1-g8 .g1 + [class*=g3-], .g1-g8 .g2, .g1-g8 [class*=g2-], .g1-g8 [class*=g2-][class*=g2-].g-clear, .g1-g8 .g2.g2.g-clear, g1-g8 .g2 + .g4, .g1-g8 [class*=-g2] + .g4, .g1-g8 [class*=-g2] + [class*=g4-], .g1-g8 .g2 + [class*=g4-], g1-g8 .g3 + .g5, .g1-g8 [class*=-g3] + .g5, .g1-g8 [class*=-g3] + [class*=g5-], .g1-g8 .g3 + [class*=g5-], g1-g8 .g4 + .g6, .g1-g8 [class*=-g4] + .g6, .g1-g8 [class*=-g4] + [class*=g6-], .g1-g8 .g4 + [class*=g6-], g1-g8 .g5 + .g7, .g1-g8 [class*=-g5] + .g7, .g1-g8 [class*=-g5] + [class*=g7-], .g1-g8 .g5 + [class*=g7-], g1-g8 .g6 + .g8, .g1-g8 [class*=-g6] + .g8, g2-g9 .g2 + .g4, .g2-g9 [class*=-g2] + [class*=g4-], .g2-g9 .g2 + [class*=g4-], .g2-g9 .g3, .g2-g9 [class*=g3-], .g2-g9 [class*=g3-][class*=g3-].g-clear, .g2-g9 .g3.g3.g-clear, g2-g9 .g3 + .g5, .g2-g9 [class*=-g3] + .g5, .g2-g9 [class*=-g3] + [class*=g5-], .g2-g9 .g3 + [class*=g5-], g2-g9 .g4 + .g6, .g2-g9 [class*=-g4] + .g6, .g2-g9 [class*=-g4] + [class*=g6-], .g2-g9 .g4 + [class*=g6-], g2-g9 .g5 + .g7, .g2-g9 [class*=-g5] + .g7, .g2-g9 [class*=-g5] + [class*=g7-], .g2-g9 .g5 + [class*=g7-], g2-g9 .g6 + .g8, .g2-g9 [class*=-g6] + .g8, .g2-g9 [class*=-g6] + [class*=g8-], .g2-g9 .g6 + [class*=g8-], g2-g9 .g7 + .g9, .g2-g9 [class*=-g7] + .g9 {
+  margin-left: 12.75252525%; }
+
+g1-g8 .g1 + .g4, .g1-g8 [class*=-g1] + [class*=g4-], .g1-g8 .g1 + [class*=g4-], g1-g8 .g2 + .g5, .g1-g8 [class*=-g2] + .g5, .g1-g8 [class*=-g2] + [class*=g5-], .g1-g8 .g2 + [class*=g5-], .g1-g8 .g3, .g1-g8 [class*=g3-], .g1-g8 [class*=g3-][class*=g3-].g-clear, .g1-g8 .g3.g3.g-clear, g1-g8 .g3 + .g6, .g1-g8 [class*=-g3] + .g6, .g1-g8 [class*=-g3] + [class*=g6-], .g1-g8 .g3 + [class*=g6-], g1-g8 .g4 + .g7, .g1-g8 [class*=-g4] + .g7, .g1-g8 [class*=-g4] + [class*=g7-], .g1-g8 .g4 + [class*=g7-], g1-g8 .g5 + .g8, .g1-g8 [class*=-g5] + .g8, g2-g9 .g2 + .g5, .g2-g9 [class*=-g2] + [class*=g5-], .g2-g9 .g2 + [class*=g5-], g2-g9 .g3 + .g6, .g2-g9 [class*=-g3] + .g6, .g2-g9 [class*=-g3] + [class*=g6-], .g2-g9 .g3 + [class*=g6-], .g2-g9 .g4, .g2-g9 [class*=g4-], .g2-g9 [class*=g4-][class*=g4-].g-clear, .g2-g9 .g4.g4.g-clear, g2-g9 .g4 + .g7, .g2-g9 [class*=-g4] + .g7, .g2-g9 [class*=-g4] + [class*=g7-], .g2-g9 .g4 + [class*=g7-], g2-g9 .g5 + .g8, .g2-g9 [class*=-g5] + .g8, .g2-g9 [class*=-g5] + [class*=g8-], .g2-g9 .g5 + [class*=g8-], g2-g9 .g6 + .g9, .g2-g9 [class*=-g6] + .g9 {
+  margin-left: 25.50505051%; }
+
+g1-g8 .g1 + .g5, .g1-g8 [class*=-g1] + [class*=g5-], .g1-g8 .g1 + [class*=g5-], g1-g8 .g2 + .g6, .g1-g8 [class*=-g2] + .g6, .g1-g8 [class*=-g2] + [class*=g6-], .g1-g8 .g2 + [class*=g6-], g1-g8 .g3 + .g7, .g1-g8 [class*=-g3] + .g7, .g1-g8 [class*=-g3] + [class*=g7-], .g1-g8 .g3 + [class*=g7-], .g1-g8 .g4, .g1-g8 [class*=g4-], .g1-g8 [class*=g4-][class*=g4-].g-clear, .g1-g8 .g4.g4.g-clear, g1-g8 .g4 + .g8, .g1-g8 [class*=-g4] + .g8, g2-g9 .g2 + .g6, .g2-g9 [class*=-g2] + [class*=g6-], .g2-g9 .g2 + [class*=g6-], g2-g9 .g3 + .g7, .g2-g9 [class*=-g3] + .g7, .g2-g9 [class*=-g3] + [class*=g7-], .g2-g9 .g3 + [class*=g7-], g2-g9 .g4 + .g8, .g2-g9 [class*=-g4] + .g8, .g2-g9 [class*=-g4] + [class*=g8-], .g2-g9 .g4 + [class*=g8-], .g2-g9 .g5, .g2-g9 [class*=g5-], .g2-g9 [class*=g5-][class*=g5-].g-clear, .g2-g9 .g5.g5.g-clear, g2-g9 .g5 + .g9, .g2-g9 [class*=-g5] + .g9 {
+  margin-left: 38.25757576%; }
+
+g1-g8 .g1 + .g6, .g1-g8 [class*=-g1] + [class*=g6-], .g1-g8 .g1 + [class*=g6-], g1-g8 .g2 + .g7, .g1-g8 [class*=-g2] + .g7, .g1-g8 [class*=-g2] + [class*=g7-], .g1-g8 .g2 + [class*=g7-], g1-g8 .g3 + .g8, .g1-g8 [class*=-g3] + .g8, .g1-g8 .g5, .g1-g8 [class*=g5-], .g1-g8 [class*=g5-][class*=g5-].g-clear, .g1-g8 .g5.g5.g-clear, g2-g9 .g2 + .g7, .g2-g9 [class*=-g2] + [class*=g7-], .g2-g9 .g2 + [class*=g7-], g2-g9 .g3 + .g8, .g2-g9 [class*=-g3] + .g8, .g2-g9 [class*=-g3] + [class*=g8-], .g2-g9 .g3 + [class*=g8-], g2-g9 .g4 + .g9, .g2-g9 [class*=-g4] + .g9, .g2-g9 .g6, .g2-g9 [class*=g6-], .g2-g9 [class*=g6-][class*=g6-].g-clear, .g2-g9 .g6.g6.g-clear {
+  margin-left: 51.01010101%; }
+
+g1-g8 .g1 + .g7, .g1-g8 [class*=-g1] + [class*=g7-], .g1-g8 .g1 + [class*=g7-], g1-g8 .g2 + .g8, .g1-g8 [class*=-g2] + .g8, .g1-g8 .g6, .g1-g8 [class*=g6-], .g1-g8 [class*=g6-][class*=g6-].g-clear, .g1-g8 .g6.g6.g-clear, g2-g9 .g2 + .g8, .g2-g9 [class*=-g2] + [class*=g8-], .g2-g9 .g2 + [class*=g8-], g2-g9 .g3 + .g9, .g2-g9 [class*=-g3] + .g9, .g2-g9 .g7, .g2-g9 [class*=g7-], .g2-g9 [class*=g7-][class*=g7-].g-clear, .g2-g9 .g7.g7.g-clear {
+  margin-left: 63.76262626%; }
+
+g1-g8 .g1 + .g8, .g1-g8 .g7, .g1-g8 [class*=g7-], .g1-g8 [class*=g7-][class*=g7-].g-clear, .g1-g8 .g7.g7.g-clear, g2-g9 .g2 + .g9, .g2-g9 .g8, .g2-g9 [class*=g8-], .g2-g9 [class*=g8-][class*=g8-].g-clear, .g2-g9 .g8.g8.g-clear {
+  margin-left: 76.51515152%; }
+
+g1-g9 .g1 + .g3, .g1-g9 [class*=-g1] + [class*=g3-], .g1-g9 .g1 + [class*=g3-], .g1-g9 .g2, .g1-g9 [class*=g2-], .g1-g9 [class*=g2-][class*=g2-].g-clear, .g1-g9 .g2.g2.g-clear, g1-g9 .g2 + .g4, .g1-g9 [class*=-g2] + .g4, .g1-g9 [class*=-g2] + [class*=g4-], .g1-g9 .g2 + [class*=g4-], g1-g9 .g3 + .g5, .g1-g9 [class*=-g3] + .g5, .g1-g9 [class*=-g3] + [class*=g5-], .g1-g9 .g3 + [class*=g5-], g1-g9 .g4 + .g6, .g1-g9 [class*=-g4] + .g6, .g1-g9 [class*=-g4] + [class*=g6-], .g1-g9 .g4 + [class*=g6-], g1-g9 .g5 + .g7, .g1-g9 [class*=-g5] + .g7, .g1-g9 [class*=-g5] + [class*=g7-], .g1-g9 .g5 + [class*=g7-], g1-g9 .g6 + .g8, .g1-g9 [class*=-g6] + .g8, .g1-g9 [class*=-g6] + [class*=g8-], .g1-g9 .g6 + [class*=g8-], g1-g9 .g7 + .g9, .g1-g9 [class*=-g7] + .g9 {
+  margin-left: 11.31019037%; }
+
+g1-g9 .g1 + .g4, .g1-g9 [class*=-g1] + [class*=g4-], .g1-g9 .g1 + [class*=g4-], g1-g9 .g2 + .g5, .g1-g9 [class*=-g2] + .g5, .g1-g9 [class*=-g2] + [class*=g5-], .g1-g9 .g2 + [class*=g5-], .g1-g9 .g3, .g1-g9 [class*=g3-], .g1-g9 [class*=g3-][class*=g3-].g-clear, .g1-g9 .g3.g3.g-clear, g1-g9 .g3 + .g6, .g1-g9 [class*=-g3] + .g6, .g1-g9 [class*=-g3] + [class*=g6-], .g1-g9 .g3 + [class*=g6-], g1-g9 .g4 + .g7, .g1-g9 [class*=-g4] + .g7, .g1-g9 [class*=-g4] + [class*=g7-], .g1-g9 .g4 + [class*=g7-], g1-g9 .g5 + .g8, .g1-g9 [class*=-g5] + .g8, .g1-g9 [class*=-g5] + [class*=g8-], .g1-g9 .g5 + [class*=g8-], g1-g9 .g6 + .g9, .g1-g9 [class*=-g6] + .g9 {
+  margin-left: 22.62038074%; }
+
+g1-g9 .g1 + .g5, .g1-g9 [class*=-g1] + [class*=g5-], .g1-g9 .g1 + [class*=g5-], g1-g9 .g2 + .g6, .g1-g9 [class*=-g2] + .g6, .g1-g9 [class*=-g2] + [class*=g6-], .g1-g9 .g2 + [class*=g6-], g1-g9 .g3 + .g7, .g1-g9 [class*=-g3] + .g7, .g1-g9 [class*=-g3] + [class*=g7-], .g1-g9 .g3 + [class*=g7-], .g1-g9 .g4, .g1-g9 [class*=g4-], .g1-g9 [class*=g4-][class*=g4-].g-clear, .g1-g9 .g4.g4.g-clear, g1-g9 .g4 + .g8, .g1-g9 [class*=-g4] + .g8, .g1-g9 [class*=-g4] + [class*=g8-], .g1-g9 .g4 + [class*=g8-], g1-g9 .g5 + .g9, .g1-g9 [class*=-g5] + .g9 {
+  margin-left: 33.93057111%; }
+
+g1-g9 .g1 + .g6, .g1-g9 [class*=-g1] + [class*=g6-], .g1-g9 .g1 + [class*=g6-], g1-g9 .g2 + .g7, .g1-g9 [class*=-g2] + .g7, .g1-g9 [class*=-g2] + [class*=g7-], .g1-g9 .g2 + [class*=g7-], g1-g9 .g3 + .g8, .g1-g9 [class*=-g3] + .g8, .g1-g9 [class*=-g3] + [class*=g8-], .g1-g9 .g3 + [class*=g8-], g1-g9 .g4 + .g9, .g1-g9 [class*=-g4] + .g9, .g1-g9 .g5, .g1-g9 [class*=g5-], .g1-g9 [class*=g5-][class*=g5-].g-clear, .g1-g9 .g5.g5.g-clear {
+  margin-left: 45.24076148%; }
+
+g1-g9 .g1 + .g7, .g1-g9 [class*=-g1] + [class*=g7-], .g1-g9 .g1 + [class*=g7-], g1-g9 .g2 + .g8, .g1-g9 [class*=-g2] + .g8, .g1-g9 [class*=-g2] + [class*=g8-], .g1-g9 .g2 + [class*=g8-], g1-g9 .g3 + .g9, .g1-g9 [class*=-g3] + .g9, .g1-g9 .g6, .g1-g9 [class*=g6-], .g1-g9 [class*=g6-][class*=g6-].g-clear, .g1-g9 .g6.g6.g-clear {
+  margin-left: 56.55095185%; }
+
+g1-g9 .g1 + .g8, .g1-g9 [class*=-g1] + [class*=g8-], .g1-g9 .g1 + [class*=g8-], g1-g9 .g2 + .g9, .g1-g9 [class*=-g2] + .g9, .g1-g9 .g7, .g1-g9 [class*=g7-], .g1-g9 [class*=g7-][class*=g7-].g-clear, .g1-g9 .g7.g7.g-clear {
+  margin-left: 67.86114222%; }
+
+g1-g9 .g1 + .g9, .g1-g9 .g8, .g1-g9 [class*=g8-], .g1-g9 [class*=g8-][class*=g8-].g-clear, .g1-g9 .g8.g8.g-clear {
+  margin-left: 79.17133259%; }
+
+/* Left butted Subs */
+[class*=g1-] [class*=g1-], [class*=g1-] .g1, [class*=g1] + [class*=g2], [class*=g2-] [class*=g2-], [class*=g2-] .g2, [class*=g2] + [class*=g3], [class*=g3-] [class*=g3-], [class*=g3-] .g3, [class*=g3] + [class*=g4], [class*=g4-] [class*=g4-], [class*=g4-] .g4, [class*=g4] + [class*=g5], [class*=g5-] [class*=g5-], [class*=g5-] .g5, [class*=g5] + [class*=g6], [class*=g6-] [class*=g6-], [class*=g6-] .g6, [class*=g6] + [class*=g7], [class*=g7-] [class*=g7-], [class*=g7-] .g7, [class*=g7] + [class*=g8], [class*=g8-] [class*=g8-], [class*=g8-] .g8, [class*=g8] + [class*=g9], [class*=g9-] [class*=g9-], [class*=g9-] .g9, [class*=g9] + [class*=g10] {
+  margin-left: 0; }
+
+.g1, [class*=g1-], .g-all, .g-clear {
+  clear: left; }
+
+/* Grid hiding ----- */
+.g-hide {
+  display: none !important; }

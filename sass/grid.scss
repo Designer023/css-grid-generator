@@ -1,0 +1,243 @@
+//TO DO:
+//Padding out and in the box
+//percentage float issues on ie/chrome/opera
+
+//USAGE: @include grid(g, 8, 990, 20);
+
+@mixin grid ($prefix, $fullGridColumns, $gridWrapperWidth, $gutterWidthInPX){
+	/* --- GRID FOR WIDTH #{$gridWrapperWidth} --- */
+	
+	//Gutters
+	$gutters : $fullGridColumns - 1;
+	$gutterPercentage :$gutterWidthInPX / $gridWrapperWidth*100%;
+	//Columns
+	$columnSpace :$gridWrapperWidth - ($gutters * $gutterWidthInPX);
+	$columnWidth :$columnSpace / $fullGridColumns;
+	$column_width_percentage :($columnWidth / $gridWrapperWidth * 100%);
+	
+	//START Multiple Columns
+	@if ($fullGridColumns > 1) {
+		$classStr: ();
+		@for $w from 1 through ($fullGridColumns+ 1) {
+			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$w}]"), comma);
+		}
+		$classStr: join($classStr, unquote(".#{$prefix}-all"), comma);
+		#{$classStr} {display:block;float:left;margin-right:#{ $gutterPercentage };margin-left:0;}
+	
+		
+		
+		
+		
+		/* Widths */
+		/* parent widths */
+		$classStr: ();
+		@for $w from 1 through ($fullGridColumns + 1) {
+			$classStr: join($classStr, unquote(".#{$prefix}#{$w}"), comma);
+		}
+		#{$classStr} {width: #{ $column_width_percentage };}	
+		
+		/* children widths */		
+		@for $width from 1 through $fullGridColumns {
+			$classStr: ();
+			@for $idx from 1 through ($fullGridColumns - $width + 1) {
+				@for $childIXD from $idx through ($idx + $width + 1) {
+					$classStr: join($classStr, unquote(".#{$prefix}#{$idx}-#{$prefix}#{$idx + $width} .#{$prefix}#{$childIXD}"), comma);
+				}
+			}
+			
+			$parentColumnWidthinPX : $columnWidth + (($width) * ($gutterWidthInPX + $columnWidth));
+			$childColumnWidthinPX : $columnWidth;
+			$colWidth : $childColumnWidthinPX / $parentColumnWidthinPX * 100%;
+			#{$classStr} {width: #{ $colWidth };}
+		}
+		
+		
+		/* parent span widths */
+		@for $additionalCols from 1 through ($fullGridColumns - 1) {
+			$classStr: ();
+			@for $startIDX from 1 through ($fullGridColumns - $additionalCols) {
+				$classStr: join($classStr, unquote(".#{$prefix}#{$startIDX}-#{$prefix}#{$startIDX + $additionalCols}"), comma);
+			}
+
+
+			$parentWidthInPX : $gridWrapperWidth;
+			$missingMarginWidth : $columnWidth + (($additionalCols) * ($gutterWidthInPX + $columnWidth));
+			$column_width_percentage : $missingMarginWidth / $parentWidthInPX * 100%;
+			#{$classStr} {width: #{ $column_width_percentage };}
+		}
+		/* child span widths */
+		
+		
+		
+		
+		@for $childWidth from 1 through $fullGridColumns {
+			@for $parentWidth from 2 through $fullGridColumns {
+				@if $childWidth < $parentWidth {
+					$classStr: ();
+					@for $parentSelector from 1 through $fullGridColumns {
+						@if ($parentSelector + $parentWidth) <= $fullGridColumns {
+							@for $childSelector from $parentSelector through ($parentSelector + $parentWidth){
+								@if ($childSelector + $childWidth) <= ($parentSelector + $parentWidth) {
+									$classStr: join($classStr, unquote(".#{$prefix}#{$parentSelector}-#{$prefix}#{$parentSelector + $parentWidth} .#{$prefix}#{$childSelector}-#{$prefix}#{$childSelector + $childWidth}"), comma);
+								}
+							}	
+						}		
+					}				
+					$parentColumnWidthinPX : $columnWidth + ($parentWidth * ($gutterWidthInPX + $columnWidth));
+					$childColumnWidthinPX : $columnWidth + ($childWidth * ($gutterWidthInPX + $columnWidth));
+					$colWidth : $childColumnWidthinPX / $parentColumnWidthinPX * 100%;
+
+					@if $classStr != () {
+						#{$classStr} {width:#{ $colWidth };}
+					}
+				}
+			}
+		}
+		
+		.#{	$prefix	}-all{width:100%;margin-left:0;margin-right:0;}
+		
+		/* Grid grid margins and clearing ----- */
+		
+		@for $parentSpans from 1 through ($fullGridColumns - 1) {
+			$classStr: ();
+			 @for $parentIDX from 1 through ($fullGridColumns - $parentSpans + 1) {
+				 @for $idx from $parentIDX through ($parentIDX + $parentSpans + 1) {
+					@if $idx != $parentIDX {
+						@for $subIdx from $idx through ($parentIDX + $parentSpans) {
+						 	$classStr: join($classStr, unquote(".#{$prefix}#{$parentIDX}-#{$prefix}#{$parentIDX + $parentSpans} [class*=#{$prefix}#{$subIdx}]"), comma);
+						}	
+					}
+					$classStr: join($classStr, unquote(".#{$prefix}#{$parentIDX}-#{$prefix}#{$parentIDX + $parentSpans} .#{$prefix}#{$idx}"), comma);
+				}
+			}
+			$parentColumnWidthinPX : $columnWidth + ($parentSpans * ($gutterWidthInPX + $columnWidth));
+			$gutterWidth : $gutterWidthInPX / $parentColumnWidthinPX * 100%;
+			
+			#{$classStr} {margin-right:#{ $gutterWidth };}
+			
+		}
+		
+		
+		
+		
+		$classStr: ();
+		 @for $parentWidth from 2 through ($fullGridColumns + 1) {
+		 	$classStr: join($classStr, unquote("[class*=-#{$prefix}#{$parentWidth}] .#{$prefix}#{$parentWidth}"), comma);
+		 	$classStr: join($classStr, unquote("[class*=-#{$prefix}#{$parentWidth}] [class*=-#{$prefix}#{$parentWidth}]"), comma);
+		 }
+		 $classStr: join($classStr, unquote("[class*=-#{$prefix}#{$fullGridColumns}]"), comma);
+		 $classStr: join($classStr, unquote(".#{$prefix}#{$fullGridColumns}"), comma);
+
+		#{$classStr} {margin-right:0; float: right;}
+		
+
+
+		/* Grid grid padding ----- */
+		
+		/* ---------------------------- TO DO... Later @if needed */
+
+		/* Grid grid relationships ----- */		
+
+
+		@for $missingRows from 1 through $fullGridColumns {
+			$classStr: ();
+			$classStr: join($classStr, unquote(".#{$prefix}#{$missingRows + 1}"), comma);
+			@if  $missingRows < ($fullGridColumns ) {
+				$classStr: join($classStr, unquote("[class*=#{$prefix}#{$missingRows + 1 }-]"), comma);
+			}
+			
+			@for $val from ($missingRows + 1) through $fullGridColumns {
+				$lastNumber : $val - ( $missingRows + 1);
+				@if $lastNumber > 0 {
+					
+					$classStr: join($classStr, unquote(".#{$prefix}#{$lastNumber}+.#{$prefix}#{$val}"), comma);
+					$classStr: join($classStr, unquote(".#{$prefix}#{$lastNumber}+[class*=#{$prefix}#{$val}-]"), comma);
+					$classStr: join($classStr, unquote("[class*=-#{$prefix}#{$lastNumber}] + .#{$prefix}#{$val}"), comma);
+					$classStr: join($classStr, unquote("[class*=-#{$prefix}#{$lastNumber}] + [class*=#{$prefix}#{$val}-]"), comma);
+				}
+			}
+
+			$gapPX : ($columnWidth + $gutterWidthInPX )* ($missingRows);
+			$gapPercent : $gapPX /  $gridWrapperWidth * 100%;
+			
+			#{$classStr}{margin-left:#{$gapPercent};}
+		}
+		
+		
+		/* sub grid relationship */
+				
+
+				 
+		 @for $parentWidth from 1 through $fullGridColumns {
+			 @for $spareMargins from 1 through ($parentWidth) {
+				$classStr: ();
+				@for $parentIDX from 1 through  ($fullGridColumns - $parentWidth + 1) {
+					 @for $childIDX from $parentIDX through ($parentIDX + $parentWidth + 1) {
+		
+					 	$PS : #{$prefix}#{$parentIDX};
+						$PE : #{$prefix}#{$parentIDX + $parentWidth};
+						$PA : '#{$prefix}#{$parentIDX}-#{$prefix}#{$parentIDX + $parentWidth}';
+						$CS : #{$prefix}#{$childIDX};
+						$CG : #{$prefix}#{$childIDX + $spareMargins};
+		
+						@if $childIDX == ($parentIDX + $spareMargins - 1) {
+							$classStr: join($classStr, unquote(".#{$PA} .#{$CS}"), comma);
+							$classStr: join($classStr, unquote(".#{$PA} [class*=#{$CS}-]"), comma);
+							$classStr: join($classStr, unquote(".#{$PA} [class*=#{$CS}-][class*=#{$CS}-].#{$prefix}-clear"), comma);
+							$classStr: join($classStr, unquote(".#{$PA} .#{$CS}.#{$CS}.#{$prefix}-clear"), comma);
+						}
+						
+						@if $spareMargins + $childIDX < $parentIDX + $parentWidth + 1 {
+							$classStr: join($classStr, unquote("#{$PA} .#{$CS}+.#{$CG}"), comma);
+							@if $spareMargins + $childIDX > $parentIDX + $spareMargins {
+								$classStr: join($classStr, unquote(".#{$PA} [class*=-#{$CS}]+.#{$CG}"), comma);
+							}
+						}
+						@if $spareMargins + $childIDX < $parentIDX + $parentWidth {
+							$classStr: join($classStr, unquote(".#{$PA} [class*=-#{$CS}]+[class*=#{$CG}-]"), comma);
+							$classStr: join($classStr, unquote(".#{$PA} .#{$CS}+[class*=#{$CG}-]"), comma);					
+						}
+					}
+				}
+				
+				$parentColumnWidthinPX : $columnWidth + (($parentWidth) * ($gutterWidthInPX + $columnWidth));
+				$gapWidth : ($spareMargins - 1) * ($gutterWidthInPX + $columnWidth);
+				$gap : $gapWidth/$parentColumnWidthinPX * 100;
+		
+				
+				@if $gap != 0 {
+					$gapPercent : $gap * 1%;
+					#{$classStr}{margin-left:#{$gapPercent};}
+				}
+			}
+		}
+			
+	
+	
+		/* Left butted Subs */
+		$classStr: ();
+		@for $idx from 1 through ($fullGridColumns + 1) {
+			$classStr: join($classStr, unquote("
+			[class*=#{$prefix}#{$idx}-] [class*=#{$prefix}#{$idx}-],
+			[class*=#{$prefix}#{$idx}-] .#{$prefix}#{$idx}"), comma);
+			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$idx}]+[class*=#{$prefix}#{$idx + 1}]"), comma);
+			
+		}
+			
+		#{$classStr} {margin-left:0;}
+		
+		
+		$classStr: ();
+		$classStr: join($classStr, unquote(".#{$prefix}1"), comma);
+		$classStr: join($classStr, unquote("[class*=#{$prefix}1-]"), comma);
+		$classStr: join($classStr, unquote(".#{$prefix}-all"), comma);
+		$classStr: join($classStr, unquote(".#{$prefix}-clear"), comma);
+		
+		
+		#{$classStr} {clear:left;}
+		
+				
+		/* Grid hiding ----- */
+		.#{	$prefix	}-hide{display:none !important;} 
+	}//END Multiple Columns
+}
