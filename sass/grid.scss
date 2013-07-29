@@ -4,7 +4,7 @@
 
 //USAGE: @include grid(g, 8, 990, 20);
 
-@mixin grid ($prefix, $fullGridColumns, $gridWrapperWidth, $gutterWidthInPX){
+@mixin grid ($prefix, $fullGridColumns, $gridWrapperWidth, $gutterWidthInPX, $createSubGrid : false ){
 	/* --- GRID FOR WIDTH #{$gridWrapperWidth} --- */
 	
 	//Gutters
@@ -68,30 +68,32 @@
 		/* child span widths */
 		
 		
+		@if $createSubGrid == true {	
 		
-		
-		@for $childWidth from 1 through $fullGridColumns {
-			@for $parentWidth from 2 through $fullGridColumns {
-				@if $childWidth < $parentWidth {
-					$classStr: ();
-					@for $parentSelector from 1 through $fullGridColumns {
-						@if ($parentSelector + $parentWidth) <= $fullGridColumns {
-							@for $childSelector from $parentSelector through ($parentSelector + $parentWidth){
-								@if ($childSelector + $childWidth) <= ($parentSelector + $parentWidth) {
-									$classStr: join($classStr, unquote(".#{$prefix}#{$parentSelector}-#{$prefix}#{$parentSelector + $parentWidth} .#{$prefix}#{$childSelector}-#{$prefix}#{$childSelector + $childWidth}"), comma);
-								}
-							}	
-						}		
-					}				
-					$parentColumnWidthinPX : $columnWidth + ($parentWidth * ($gutterWidthInPX + $columnWidth));
-					$childColumnWidthinPX : $columnWidth + ($childWidth * ($gutterWidthInPX + $columnWidth));
-					$colWidth : $childColumnWidthinPX / $parentColumnWidthinPX * 100%;
+			@for $childWidth from 1 through $fullGridColumns {
+				@for $parentWidth from 2 through $fullGridColumns {
+					@if $childWidth < $parentWidth {
+						$classStr: ();
+						@for $parentSelector from 1 through $fullGridColumns {
+							@if ($parentSelector + $parentWidth) <= $fullGridColumns {
+								@for $childSelector from $parentSelector through ($parentSelector + $parentWidth){
+									@if ($childSelector + $childWidth) <= ($parentSelector + $parentWidth) {
+										$classStr: join($classStr, unquote(".#{$prefix}#{$parentSelector}-#{$prefix}#{$parentSelector + $parentWidth} .#{$prefix}#{$childSelector}-#{$prefix}#{$childSelector + $childWidth}"), comma);
+									}
+								}	
+							}		
+						}				
+						$parentColumnWidthinPX : $columnWidth + ($parentWidth * ($gutterWidthInPX + $columnWidth));
+						$childColumnWidthinPX : $columnWidth + ($childWidth * ($gutterWidthInPX + $columnWidth));
+						$colWidth : $childColumnWidthinPX / $parentColumnWidthinPX * 100%;
 
-					@if $classStr != () {
-						#{$classStr} {width:#{ $colWidth };}
+						@if $classStr != () {
+							#{$classStr} {width:#{ $colWidth };}
+						}
 					}
 				}
 			}
+
 		}
 		
 		.#{	$prefix	}-all{width:100%;margin-left:0;margin-right:0;}
@@ -167,7 +169,7 @@
 		/* sub grid relationship */
 				
 
-				 
+			 
 		 @for $parentWidth from 1 through $fullGridColumns {
 			 @for $spareMargins from 1 through ($parentWidth) {
 				$classStr: ();
