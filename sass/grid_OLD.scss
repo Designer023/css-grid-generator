@@ -32,6 +32,8 @@
 		width: auto;
 		}
 		
+		
+		
 		$classStr: ();
 		@for $w from 1 through ($fullGridColumns+ 1) {
 			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$w}]"), comma);
@@ -143,7 +145,7 @@
 		 $classStr: join($classStr, unquote("[class*=-#{$prefix}#{$fullGridColumns}]"), comma);
 		 $classStr: join($classStr, unquote(".#{$prefix}#{$fullGridColumns}"), comma);
 
-		#{$classStr} {margin-right:0;}
+		#{$classStr} {margin-right:0; float: right;}
 		
 
 
@@ -232,9 +234,11 @@
 		/* Left butted Subs */
 		$classStr: ();
 		@for $idx from 1 through ($fullGridColumns + 1) {
-			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$idx}-] [class*=#{$prefix}#{$idx}-],[class*=#{$prefix}#{$idx}-] .#{$prefix}#{$idx}"), comma);
+			$classStr: join($classStr, unquote("
+			[class*=#{$prefix}#{$idx}-] [class*=#{$prefix}#{$idx}-],
+			[class*=#{$prefix}#{$idx}-] .#{$prefix}#{$idx}"), comma);
 			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$idx}]+[class*=#{$prefix}#{$idx + 1}]"), comma);
-			$classStr: join($classStr, unquote("[class*=#{$prefix}#{$idx}] [class*=#{$prefix}#{$idx}]"), comma);
+			
 		}
 			
 		#{$classStr} {margin-left:0;}
